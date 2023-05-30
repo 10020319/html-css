@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tabelas</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        table{
+            width: 500px;
+            border-collapse: collapse;
+            position: relative;
+        }
+
+        td,th{
+            border: 1px solid rgb(15, 14, 14);
+            padding: 10px;
+        }
+
+        thead > tr >th{
+            position: sticky;
+            top: -1px;
+            background-color: rgb(4, 4, 77);
+            color: white;
+          
+
+        }
+        
+        tfoot{
+            background-color: rgb(4, 4, 77);
+            color: white;
+        }
+
+        td.num{
+            text-align: right;
+        }
+
+        tbody > tr:nth-child(odd){
+            background-image: linear-gradient(to right, rgb(91, 91, 216) , white);
+            font-weight: bold;
+            
+        }
+
+        tbody > tr:nth-child(even){
+            background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.575) , rgba(0, 0, 255, 0.13));
+            font-weight: bold;
+            
+
+        }
+
+        caption {
+            font-size: 1.5em;
+            font-weight: bold;
+            padding: 10px;
+            background-color: rgb(248, 248, 64);
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Uso de tabelas grandes</h1>
+
+    <table>
+        <caption>População Das Unidades Federativas</caption>
+        <thead>
+            <tr>
+                <th scope="col">estado</th>
+                <th scope="col" style="width: 50px;">População</th>
+                
+            </tr>
+
+        </thead>
+
+        <tbody>
+            <td>São paulo</td>
+            <td class="num">45.919.049</td>
+            <tr>
+                <td>Minas Gerais</td>
+                <td class="num">21.168.791</td>
+            </tr>
+            <tr>
+                <td>Rio de janeiro</td>
+                <td class="num">17.294.943</td>
+            </tr>
+            <tr>
+                <td>mato Grosso</td>
+                <td class="num">3.484.466</td>
+            </tr>
+            <tr>
+                <td>Alagoas</td>
+                <td class="num">3.337.357</td>
+            </tr>
+            <tr>
+                <td>Piaui</td>
+                <td class="num">3.273.227</td>
+            </tr>
+            <tr>
+               <td>Distrito Federal</td> 
+               <td class="num">3.015.268</td>
+            </tr>
+            <tr>
+                <td>Mato grosso do Sul</td>
+                <td class="num">2.778.986</td>
+            </tr>
+            <tr>
+                <td>Sergipe</td>
+                <td class="num">2.298.696</td>
+            </tr>
+            <tr>
+                <td>Rondonia</td>
+                <td class="num">1.777.225</td>
+            </tr>
+
+
+
+        </tbody>
+
+        <tfoot>
+            <tr>
+                <th scope="">Total de habitantes</th>
+                <td class="num"><strong>87.053.065</strong></td>
+            </tr>
+
+        </tfoot>
+    </table>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti sed rerum unde et, ea possimus recusandae a, rem architecto enim distinctio excepturi dolore quaerat adipisci doloremque aspernatur voluptatem accusamus Lorem ipsum dolor sit, amet consectetur adipisicing elit. Maiores distinctio eum deserunt excepturi libero expedita facilis qui in asperiores iusto <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deserunt facere, dignissimos nostrum explicabo maiores illum fugit optio cumque facilis consequuntur possimus voluptatibus delectus inventore nesciunt impedit provident quia iure dolor.</p><p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odio error officia adipisci obcaecati quas, similique maxime quo, cupiditate debitis ea inventore vel sit dicta autem consequatur, maiores quis perferendis quisquam?</p><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus incidunt praesentium deleniti iusto asperiores enim rerum laudantium sit, repellendus, molestiae, ipsam ab modi. Consequuntur id pariatur et nisi blanditiis unde.</p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur minus, magni veniam eligendi culpa sit quaerat ad placeat quia quae reiciendis tempore dolore ipsam. Quisquam, molestias. Laudantium, sint pariatur! Adipisci. <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto asperiores molestiae quos officiis sit consectetur sequi sed illum, porro vel quam minima quaerat veritatis neque laudantium officia reprehenderit magni doloribus.</p><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident totam nostrum dolor officiis molestias, quo, repellendus id perspiciatis cupiditate consectetur ea aperiam exercitationem facilis aspernatur a ipsam quasi amet voluptatibus! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Animi, laborum! Rerum velit suscipit harum explicabo expedita! Ea fugiat odit nisi dolorum sequi dolorem deleniti vel impedit, quam explicabo alias qui! Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis praesentium vel quibusdam sed minus illum voluptate sint, excepturi ullam laudantium nam quis id, laborum corporis, alias quae maxime enim ab!</p>
+    </p>
+</body>
+</html>

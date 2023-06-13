@@ -1,0 +1,49 @@
+@charset "UTf-8";
+
+
+ *{font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+font-size: 1em;
+margin: 0px;
+padding: 0px;
+box-sizing: border-box;
+}
+
+ html{
+
+height: 100vh;
+}
+
+
+ 
+
+body {
+background: black url(../img/back-phone.jpg) no-repeat;
+background-size: cover;
+background-position: center center;
+}
+
+main{
+    background-color: rgba(3, 3, 180, 0.548);
+    margin: auto;
+    border-radius: 10px;
+    padding: 10px;
+    width: 90vw;
+}
+
+    h1{
+        text-align: center;
+        color: yellow;
+        text-shadow: 2px 2px 2px black;
+        font-size: 2em;
+        margin-top: 20px;
+    }
+
+img#p{display: block;}
+
+img#t{display: none;}
+
+img#pr{display: none;}
+
+img#pc{display: none;}
+
+img#tv{display: none;}

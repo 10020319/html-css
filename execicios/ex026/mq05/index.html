@@ -6,8 +6,9 @@
     <title>mq 05</title>
     <link rel="stylesheet" href="MQ05/style.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+    <link rel="stylesheet" href="query/style.css">
 </head>
-<body>
+<body onresize="mudouTamanho()">
     <header>
        <h1>Meu site</h1>
        <span id="icon" class="material-symbols-outlined" onclick="clickMenu()">
@@ -32,6 +33,15 @@
         </article>
     </main>
     <script>
+
+        function mudouTamanho(){
+            if (window.innerHeight>= 768) {
+                acessorio.style.display ='block'
+            } else {
+                acessorio.style.display ='none'
+            }
+        }
+
         function clickMenu() {
            if ( acessorio.style.display=='block') {
                acessorio.style.display='none'
